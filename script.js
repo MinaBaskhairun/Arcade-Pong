@@ -47,6 +47,7 @@ function gameLoop() {
     updatePaddle1();
     updatePaddle2();
     moveBall();
+    console.log(ballSpeedX, ballSpeedY);
     setTimeout(gameLoop, 8);
   }
 }
